@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://emu-007.github.io/gh-pages/sitemap.xml
