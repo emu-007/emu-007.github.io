@@ -2,16 +2,16 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "Dev Blog",
     "description": "",
-    "home_page_url": "https://emu-007.github.io/gh-pages",
-    "feed_url": "https://emu-007.github.io/gh-pages/feed.json",
+    "home_page_url": "https://emu-007.github.io/emu-007.github.io",
+    "feed_url": "https://emu-007.github.io/emu-007.github.io/feed.json",
     "user_comment": "",
     "author": {
         "name": "Sam"
     },
     "items": [
         {
-            "id": "https://emu-007.github.io/gh-pages/outputting-file-content-in-the-terminal.html",
-            "url": "https://emu-007.github.io/gh-pages/outputting-file-content-in-the-terminal.html",
+            "id": "https://emu-007.github.io/emu-007.github.io/outputting-file-content-in-the-terminal.html",
+            "url": "https://emu-007.github.io/emu-007.github.io/outputting-file-content-in-the-terminal.html",
             "title": "Outputting file content in the terminal. ",
             "summary": "There are various ways to see what is inside a file inside the terminal. cat filename would output the contents&hellip;",
             "content_html": "<p>There are various ways to see what is inside a file inside the terminal. </p>\n<p><code>cat <em>filename</em></code> would output the contents of a file. </p>\n<p>If you need to have a little more control over what and how it is being shown on the screen use </p>\n<p><code>less <em>filename</em></code>  would let you scroll through the contents of the file. To exit that use <code>q</code>.</p>\n<p><code>more <em>filename</em></code> would output one page at a time. </p>\n<p> </p>\n<p> </p>",
@@ -25,8 +25,8 @@
             "date_modified": "2021-03-04T17:02:06+01:00"
         },
         {
-            "id": "https://emu-007.github.io/gh-pages/changing-directories-in-terminal.html",
-            "url": "https://emu-007.github.io/gh-pages/changing-directories-in-terminal.html",
+            "id": "https://emu-007.github.io/emu-007.github.io/changing-directories-in-terminal.html",
+            "url": "https://emu-007.github.io/emu-007.github.io/changing-directories-in-terminal.html",
             "title": "Changing directories in terminal",
             "summary": "cd foldername /* changes to the folder specified cd .. /* goes up one directory cd \\. /* takes you&hellip;",
             "content_html": "<pre>cd <em>foldername</em> /* changes to the folder specified<br>cd .. /* goes up one directory<br>cd \\.  /* takes you back one directory<br>cd  /* takes you to home directory </pre>",
@@ -40,11 +40,11 @@
             "date_modified": "2021-03-03T23:23:36+01:00"
         },
         {
-            "id": "https://emu-007.github.io/gh-pages/how-to-build-the-linux-kernel.html",
-            "url": "https://emu-007.github.io/gh-pages/how-to-build-the-linux-kernel.html",
+            "id": "https://emu-007.github.io/emu-007.github.io/how-to-build-the-linux-kernel.html",
+            "url": "https://emu-007.github.io/emu-007.github.io/how-to-build-the-linux-kernel.html",
             "title": "How to build the Linux Kernel",
             "summary": "This build process is for Ubuntu/Debian Download the latest kernel from Linux kernel archives as tar. Once you have those&hellip;",
-            "content_html": "<p>This build process is for Ubuntu/Debian</p>\n<p><a href=\"#INTERNAL_LINK#/post/null\" title=\"https://www.kernel.org/\">Download</a> the latest kernel from Linux kernel archives as tar. Once you have those files downloaded extract the files and open the file in terminal. </p>\n<p>First step of kernel building is to configure the kernel. There's multiple utilities you can use, for example </p>\n<p><code>make config </code> or <code>make menuconfig</code></p>\n<p>The first one is a command line input which can take a while to configure, the alternative is to have a terminal based gui, which is what the second command does. </p>\n<p>In this article I wont be going through the process of manually configuring the build. We will use the default configuration and that will generate a configuration file for the build process. </p>\n<p>Use <code>make defconfig</code> to set the default configuration. </p>\n<p>Once you have that you can run the <code>make</code> command to build the kernel. You might encounter problems while installing them.  Check this <a href=\"https://emu-007.github.io/gh-pages/error-scriptsextract-certc2110-fatal-error-opensslbioh-no-such-file-or-directory-include.html\" target=\"_blank\" rel=\"noopener noreferrer\">post</a> for the packages that you might need to install. </p>",
+            "content_html": "<p>This build process is for Ubuntu/Debian</p>\n<p><a href=\"#INTERNAL_LINK#/post/null\" title=\"https://www.kernel.org/\">Download</a> the latest kernel from Linux kernel archives as tar. Once you have those files downloaded extract the files and open the file in terminal. </p>\n<p>First step of kernel building is to configure the kernel. There's multiple utilities you can use, for example </p>\n<p><code>make config </code> or <code>make menuconfig</code></p>\n<p>The first one is a command line input which can take a while to configure, the alternative is to have a terminal based gui, which is what the second command does. </p>\n<p>In this article I wont be going through the process of manually configuring the build. We will use the default configuration and that will generate a configuration file for the build process. </p>\n<p>Use <code>make defconfig</code> to set the default configuration. </p>\n<p>Once you have that you can run the <code>make</code> command to build the kernel. You might encounter problems while installing them.  Check this <a href=\"https://emu-007.github.io/emu-007.github.io/error-scriptsextract-certc2110-fatal-error-opensslbioh-no-such-file-or-directory-include.html\" target=\"_blank\" rel=\"noopener noreferrer\">post</a> for the packages that you might need to install. </p>",
             "author": {
                 "name": "Sam"
             },
@@ -55,8 +55,8 @@
             "date_modified": "2021-03-04T00:02:51+01:00"
         },
         {
-            "id": "https://emu-007.github.io/gh-pages/error-scriptsextract-certc2110-fatal-error-opensslbioh-no-such-file-or-directory-include.html",
-            "url": "https://emu-007.github.io/gh-pages/error-scriptsextract-certc2110-fatal-error-opensslbioh-no-such-file-or-directory-include.html",
+            "id": "https://emu-007.github.io/emu-007.github.io/error-scriptsextract-certc2110-fatal-error-opensslbioh-no-such-file-or-directory-include.html",
+            "url": "https://emu-007.github.io/emu-007.github.io/error-scriptsextract-certc2110-fatal-error-opensslbioh-no-such-file-or-directory-include.html",
             "title": "Errors or packages Installed during kernel build",
             "summary": " Error: scripts/extract-cert.c:21:10: fatal error: openssl/bio.h: No such file or directory #include sudo apt-get install aptitude sudo aptitude install libssl-dev&hellip;",
             "content_html": "<p> </p>\n<p><em>Error: scripts/extract-cert.c:21:10: fatal error: openssl/bio.h: No such file or directory #include </em></p>\n<p> </p>\n<p><code>sudo apt-get install aptitude</code></p>\n<p><code>sudo aptitude install libssl-dev</code></p>\n<p> </p>\n<p>Other errors in build processes </p>\n<p><code>sudo apt-get install libelf-dev</code></p>",
@@ -70,8 +70,8 @@
             "date_modified": "2021-03-04T00:04:21+01:00"
         },
         {
-            "id": "https://emu-007.github.io/gh-pages/about-me.html",
-            "url": "https://emu-007.github.io/gh-pages/about-me.html",
+            "id": "https://emu-007.github.io/emu-007.github.io/about-me.html",
+            "url": "https://emu-007.github.io/emu-007.github.io/about-me.html",
             "title": "About me",
             "summary": " Hey I am Sam. I use this blog to write about things that are related to programming and other&hellip;",
             "content_html": "\n  <p>\n    Hey I am Sam. I use this blog to write about things that are related to programming and other technology related stuff.&nbsp; Mostly they are things that i learn in the form of notes that are publicly available.&nbsp;\n  </p>",
@@ -84,8 +84,8 @@
             "date_modified": "2021-03-05T08:26:53+01:00"
         },
         {
-            "id": "https://emu-007.github.io/gh-pages/make-menuconfig.html",
-            "url": "https://emu-007.github.io/gh-pages/make-menuconfig.html",
+            "id": "https://emu-007.github.io/emu-007.github.io/make-menuconfig.html",
+            "url": "https://emu-007.github.io/emu-007.github.io/make-menuconfig.html",
             "title": "make menuconfig",
             "summary": "While trying to run the make menuconfig to configure the build of Linux Kernel I encountered some issues. Mainly that I&hellip;",
             "content_html": "<p>While trying to run the <code>make menuconfig</code><em> </em>to configure the build of Linux Kernel I encountered some issues. Mainly that I didn't have many of the packages installed. </p>\n<p>This is just a list of commands, i.e package names to install. It might differ based on what you already have installed on your computer. Its in the order the errors were thrown out saying something wasn't available in order to use <code>make menuconfig</code></p>\n<p><code>sudo apt-get install pkg-config</code></p>\n<p>To install ncurses a sort of terminal gui. </p>\n<p><code>sudo apt-get install libncurses5-dev libncursesw5-dev</code></p>\n<p>If flex not found</p>\n<p><code>sudo apt-get install flex</code></p>\n<p>If Bison not found</p>\n<p><code>sudo apt-get install bison</code></p>\n<p>I could run <code>make menuconfig </code>after installing those</p>\n<p><code></code></p>\n<p> </p>",

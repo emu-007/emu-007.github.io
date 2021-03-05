@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Dev Blog</title>
-    <link href="https://emu-007.github.io/gh-pages/feed.xml" rel="self" />
-    <link href="https://emu-007.github.io/gh-pages" />
+    <link href="https://emu-007.github.io/emu-007.github.io/feed.xml" rel="self" />
+    <link href="https://emu-007.github.io/emu-007.github.io" />
     <updated>2021-03-05T08:26:53+01:00</updated>
     <author>
         <name>Sam</name>
     </author>
-    <id>https://emu-007.github.io/gh-pages</id>
+    <id>https://emu-007.github.io/emu-007.github.io</id>
 
     <entry>
         <title>Outputting file content in the terminal. </title>
         <author>
             <name>Sam</name>
         </author>
-        <link href="https://emu-007.github.io/gh-pages/outputting-file-content-in-the-terminal.html"/>
-        <id>https://emu-007.github.io/gh-pages/outputting-file-content-in-the-terminal.html</id>
+        <link href="https://emu-007.github.io/emu-007.github.io/outputting-file-content-in-the-terminal.html"/>
+        <id>https://emu-007.github.io/emu-007.github.io/outputting-file-content-in-the-terminal.html</id>
             <category term="Linux Commands"/>
 
         <updated>2021-03-04T17:02:06+01:00</updated>
@@ -41,8 +41,8 @@
         <author>
             <name>Sam</name>
         </author>
-        <link href="https://emu-007.github.io/gh-pages/changing-directories-in-terminal.html"/>
-        <id>https://emu-007.github.io/gh-pages/changing-directories-in-terminal.html</id>
+        <link href="https://emu-007.github.io/emu-007.github.io/changing-directories-in-terminal.html"/>
+        <id>https://emu-007.github.io/emu-007.github.io/changing-directories-in-terminal.html</id>
             <category term="Linux Commands"/>
 
         <updated>2021-03-03T23:23:36+01:00</updated>
@@ -62,8 +62,8 @@
         <author>
             <name>Sam</name>
         </author>
-        <link href="https://emu-007.github.io/gh-pages/how-to-build-the-linux-kernel.html"/>
-        <id>https://emu-007.github.io/gh-pages/how-to-build-the-linux-kernel.html</id>
+        <link href="https://emu-007.github.io/emu-007.github.io/how-to-build-the-linux-kernel.html"/>
+        <id>https://emu-007.github.io/emu-007.github.io/how-to-build-the-linux-kernel.html</id>
             <category term="Linux Kernel"/>
 
         <updated>2021-03-04T00:02:51+01:00</updated>
@@ -81,7 +81,7 @@
 <p>The first one is a command line input which can take a while to configure, the alternative is to have a terminal based gui, which is what the second command does. </p>
 <p>In this article I wont be going through the process of manually configuring the build. We will use the default configuration and that will generate a configuration file for the build process. </p>
 <p>Use <code>make defconfig</code> to set the default configuration. </p>
-<p>Once you have that you can run the <code>make</code> command to build the kernel. You might encounter problems while installing them.  Check this <a href="https://emu-007.github.io/gh-pages/error-scriptsextract-certc2110-fatal-error-opensslbioh-no-such-file-or-directory-include.html" target="_blank" rel="noopener noreferrer">post</a> for the packages that you might need to install. </p>
+<p>Once you have that you can run the <code>make</code> command to build the kernel. You might encounter problems while installing them.  Check this <a href="https://emu-007.github.io/emu-007.github.io/error-scriptsextract-certc2110-fatal-error-opensslbioh-no-such-file-or-directory-include.html" target="_blank" rel="noopener noreferrer">post</a> for the packages that you might need to install. </p>
             ]]>
         </content>
     </entry>
@@ -90,8 +90,8 @@
         <author>
             <name>Sam</name>
         </author>
-        <link href="https://emu-007.github.io/gh-pages/error-scriptsextract-certc2110-fatal-error-opensslbioh-no-such-file-or-directory-include.html"/>
-        <id>https://emu-007.github.io/gh-pages/error-scriptsextract-certc2110-fatal-error-opensslbioh-no-such-file-or-directory-include.html</id>
+        <link href="https://emu-007.github.io/emu-007.github.io/error-scriptsextract-certc2110-fatal-error-opensslbioh-no-such-file-or-directory-include.html"/>
+        <id>https://emu-007.github.io/emu-007.github.io/error-scriptsextract-certc2110-fatal-error-opensslbioh-no-such-file-or-directory-include.html</id>
             <category term="Linux Kernel"/>
 
         <updated>2021-03-04T00:04:21+01:00</updated>
@@ -118,8 +118,8 @@
         <author>
             <name>Sam</name>
         </author>
-        <link href="https://emu-007.github.io/gh-pages/about-me.html"/>
-        <id>https://emu-007.github.io/gh-pages/about-me.html</id>
+        <link href="https://emu-007.github.io/emu-007.github.io/about-me.html"/>
+        <id>https://emu-007.github.io/emu-007.github.io/about-me.html</id>
 
         <updated>2021-03-05T08:26:53+01:00</updated>
             <summary>
@@ -141,8 +141,8 @@
         <author>
             <name>Sam</name>
         </author>
-        <link href="https://emu-007.github.io/gh-pages/make-menuconfig.html"/>
-        <id>https://emu-007.github.io/gh-pages/make-menuconfig.html</id>
+        <link href="https://emu-007.github.io/emu-007.github.io/make-menuconfig.html"/>
+        <id>https://emu-007.github.io/emu-007.github.io/make-menuconfig.html</id>
             <category term="Linux Kernel"/>
 
         <updated>2021-03-03T23:23:57+01:00</updated>
