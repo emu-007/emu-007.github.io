@@ -3,12 +3,34 @@
     <title>Dev Blog</title>
     <link href="https://emu-007.github.io/emu-007.github.io/feed.xml" rel="self" />
     <link href="https://emu-007.github.io/emu-007.github.io" />
-    <updated>2021-03-05T09:17:01+01:00</updated>
+    <updated>2021-03-06T13:07:02+01:00</updated>
     <author>
         <name>Sam</name>
     </author>
     <id>https://emu-007.github.io/emu-007.github.io</id>
 
+    <entry>
+        <title>Listing all installed apt packages </title>
+        <author>
+            <name>Sam</name>
+        </author>
+        <link href="https://emu-007.github.io/emu-007.github.io/listing-all-installed-apt-packages.html"/>
+        <id>https://emu-007.github.io/emu-007.github.io/listing-all-installed-apt-packages.html</id>
+            <category term="Linux Commands"/>
+
+        <updated>2021-03-06T13:07:02+01:00</updated>
+            <summary>
+                <![CDATA[
+                    I have installed many utilities or programs through the apt package manager, not all show up through the gui. sudo&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>I have installed many utilities or programs through the apt package manager, not all show up through the gui. </p>
+<p><code>sudo apt list --installed</code> will give you a rather large list. Use <code>sudo apt list --installed | less</code> to make it scroll able.  If you want to search for a specific package or a keyword use <code>sudo apt list --installed | grep -i <em>keyword</em></code>.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Outputting file content in the terminal. </title>
         <author>

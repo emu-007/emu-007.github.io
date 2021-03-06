@@ -10,6 +10,21 @@
     },
     "items": [
         {
+            "id": "https://emu-007.github.io/emu-007.github.io/listing-all-installed-apt-packages.html",
+            "url": "https://emu-007.github.io/emu-007.github.io/listing-all-installed-apt-packages.html",
+            "title": "Listing all installed apt packages ",
+            "summary": "I have installed many utilities or programs through the apt package manager, not all show up through the gui. sudo&hellip;",
+            "content_html": "<p>I have installed many utilities or programs through the apt package manager, not all show up through the gui. </p>\n<p><code>sudo apt list --installed</code> will give you a rather large list. Use <code>sudo apt list --installed | less</code> to make it scroll able.  If you want to search for a specific package or a keyword use <code>sudo apt list --installed | grep -i <em>keyword</em></code>.</p>",
+            "author": {
+                "name": "Sam"
+            },
+            "tags": [
+                   "Linux Commands"
+            ],
+            "date_published": "2021-03-06T13:07:02+01:00",
+            "date_modified": "2021-03-06T13:07:02+01:00"
+        },
+        {
             "id": "https://emu-007.github.io/emu-007.github.io/outputting-file-content-in-the-terminal.html",
             "url": "https://emu-007.github.io/emu-007.github.io/outputting-file-content-in-the-terminal.html",
             "title": "Outputting file content in the terminal. ",
