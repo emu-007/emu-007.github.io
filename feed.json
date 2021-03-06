@@ -13,8 +13,8 @@
             "id": "https://emu-007.github.io/emu-007.github.io/listing-all-installed-apt-packages.html",
             "url": "https://emu-007.github.io/emu-007.github.io/listing-all-installed-apt-packages.html",
             "title": "Listing all installed apt packages ",
-            "summary": "I have installed many utilities or programs through the apt package manager, not all show up through the gui. sudo&hellip;",
-            "content_html": "<p>I have installed many utilities or programs through the apt package manager, not all show up through the gui. </p>\n<p><code>sudo apt list --installed</code> will give you a rather large list. Use <code>sudo apt list --installed | less</code> to make it scroll able.  If you want to search for a specific package or a keyword use <code>sudo apt list --installed | grep -i <em>keyword</em></code>.</p>",
+            "summary": " 1. Use sudo apt list --installed to see all that is installed on your Linux system. It will give&hellip;",
+            "content_html": "<p> </p>\n<p>1. Use <code>sudo apt list --installed</code>   to see all that is installed on your Linux system. <span style=\"color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);\">It will give you a rather large list. </span></p>\n<p><span style=\"color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);\">2.Use </span><code style=\"font-weight: var(--font-weight-normal);\">sudo apt list --installed | less</code><span style=\"color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);\"> to make it scroll able, <code>q</code> to quit out of the scroll.   </span></p>\n<p><span style=\"color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);\">3.If you want to search for a specific package or a keyword use </span><code style=\"font-weight: var(--font-weight-normal);\">sudo apt list --installed | grep -i <em>keyword</em></code><span style=\"color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);\">.</span></p>",
             "author": {
                 "name": "Sam"
             },
@@ -22,7 +22,7 @@
                    "Linux Commands"
             ],
             "date_published": "2021-03-06T13:07:02+01:00",
-            "date_modified": "2021-03-06T13:07:02+01:00"
+            "date_modified": "2021-03-06T13:11:59+01:00"
         },
         {
             "id": "https://emu-007.github.io/emu-007.github.io/outputting-file-content-in-the-terminal.html",
@@ -89,14 +89,14 @@
             "url": "https://emu-007.github.io/emu-007.github.io/about-me.html",
             "title": "About me",
             "summary": " Hey I am Sam. I use this blog to write about things that are related to programming and other&hellip;",
-            "content_html": "\n  <p>\n    Hey I am Sam. I use this blog to write about things that are related to programming and other technology related stuff.&nbsp; Mostly they are things that i learn in the form of notes that are publicly available.&nbsp;\n  </p>",
+            "content_html": "\n  <p>\n    Hey I am Sam. I use this blog to write about things that are related to programming and other technology related stuff.&nbsp; Mostly they are just notes that are publicly available.&nbsp;\n  </p>",
             "author": {
                 "name": "Sam"
             },
             "tags": [
             ],
             "date_published": "2021-03-03T15:20:13+01:00",
-            "date_modified": "2021-03-05T09:17:01+01:00"
+            "date_modified": "2021-03-06T13:13:15+01:00"
         },
         {
             "id": "https://emu-007.github.io/emu-007.github.io/make-menuconfig.html",

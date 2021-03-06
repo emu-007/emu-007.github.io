@@ -3,7 +3,7 @@
     <title>Dev Blog</title>
     <link href="https://emu-007.github.io/emu-007.github.io/feed.xml" rel="self" />
     <link href="https://emu-007.github.io/emu-007.github.io" />
-    <updated>2021-03-06T13:07:02+01:00</updated>
+    <updated>2021-03-06T13:13:15+01:00</updated>
     <author>
         <name>Sam</name>
     </author>
@@ -18,16 +18,18 @@
         <id>https://emu-007.github.io/emu-007.github.io/listing-all-installed-apt-packages.html</id>
             <category term="Linux Commands"/>
 
-        <updated>2021-03-06T13:07:02+01:00</updated>
+        <updated>2021-03-06T13:11:59+01:00</updated>
             <summary>
                 <![CDATA[
-                    I have installed many utilities or programs through the apt package manager, not all show up through the gui. sudo&hellip;
+                     1. Use sudo apt list --installed to see all that is installed on your Linux system. It will give&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>I have installed many utilities or programs through the apt package manager, not all show up through the gui. </p>
-<p><code>sudo apt list --installed</code> will give you a rather large list. Use <code>sudo apt list --installed | less</code> to make it scroll able.  If you want to search for a specific package or a keyword use <code>sudo apt list --installed | grep -i <em>keyword</em></code>.</p>
+                <p> </p>
+<p>1. Use <code>sudo apt list --installed</code>   to see all that is installed on your Linux system. <span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">It will give you a rather large list. </span></p>
+<p><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">2.Use </span><code style="font-weight: var(--font-weight-normal);">sudo apt list --installed | less</code><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);"> to make it scroll able, <code>q</code> to quit out of the scroll.   </span></p>
+<p><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">3.If you want to search for a specific package or a keyword use </span><code style="font-weight: var(--font-weight-normal);">sudo apt list --installed | grep -i <em>keyword</em></code><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">.</span></p>
             ]]>
         </content>
     </entry>
@@ -143,7 +145,7 @@
         <link href="https://emu-007.github.io/emu-007.github.io/about-me.html"/>
         <id>https://emu-007.github.io/emu-007.github.io/about-me.html</id>
 
-        <updated>2021-03-05T09:17:01+01:00</updated>
+        <updated>2021-03-06T13:13:15+01:00</updated>
             <summary>
                 <![CDATA[
                      Hey I am Sam. I use this blog to write about things that are related to programming and other&hellip;
@@ -153,7 +155,7 @@
             <![CDATA[
                 
   <p>
-    Hey I am Sam. I use this blog to write about things that are related to programming and other technology related stuff.&nbsp; Mostly they are things that i learn in the form of notes that are publicly available.&nbsp;
+    Hey I am Sam. I use this blog to write about things that are related to programming and other technology related stuff.&nbsp; Mostly they are just notes that are publicly available.&nbsp;
   </p>
             ]]>
         </content>
