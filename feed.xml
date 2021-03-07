@@ -3,7 +3,7 @@
     <title>Dev Blog</title>
     <link href="https://emu-007.github.io/emu-007.github.io/feed.xml" rel="self" />
     <link href="https://emu-007.github.io/emu-007.github.io" />
-    <updated>2021-03-07T19:17:18+01:00</updated>
+    <updated>2021-03-07T19:18:14+01:00</updated>
     <author>
         <name>Sam</name>
     </author>
@@ -16,8 +16,9 @@
         </author>
         <link href="https://emu-007.github.io/emu-007.github.io/vagrant-time-out-error.html"/>
         <id>https://emu-007.github.io/emu-007.github.io/vagrant-time-out-error.html</id>
+            <category term="Linux Commands"/>
 
-        <updated>2021-03-07T19:17:18+01:00</updated>
+        <updated>2021-03-07T19:18:14+01:00</updated>
             <summary>
                 <![CDATA[
                     If the connection times out after you run vagrant up and it takes too long and times out after the&hellip;
