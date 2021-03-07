@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "https://emu-007.github.io/emu-007.github.io/vagrant-time-out-error.html",
+            "url": "https://emu-007.github.io/emu-007.github.io/vagrant-time-out-error.html",
+            "title": "Vagrant time out error ",
+            "summary": "If the connection times out after you run vagrant up and it takes too long and times out after the&hellip;",
+            "content_html": "<p data-start=\"1\" data-line-offset=\"0\">If the connection times out after you run <code>vagrant up</code>  and it takes too long and times out after the following.</p>\n<pre data-start=\"1\" data-line-offset=\"0\">default: SSH address: 127.0.0.1:2222<br>default: SSH username: vagrant</pre>\n<p data-start=\"1\" data-line-offset=\"0\">One of the reasons this could happen is because virtualization is disabled in the bios. To check if if virtualization is enabled on a Linux system, run <code>sudo kvm-ok</code>.  The output should inform you if it is disabled. </p>\n<p data-start=\"1\" data-line-offset=\"0\">To enable it go into the bios and under CPU or processor enable virtualization. If virtualization was causing it, now you should be able to run vagrant.  </p>",
+            "author": {
+                "name": "Sam"
+            },
+            "tags": [
+            ],
+            "date_published": "2021-03-07T19:10:38+01:00",
+            "date_modified": "2021-03-07T19:17:18+01:00"
+        },
+        {
             "id": "https://emu-007.github.io/emu-007.github.io/installing-the-latest-vagrant.html",
             "url": "https://emu-007.github.io/emu-007.github.io/installing-the-latest-vagrant.html",
             "title": "Installing the latest vagrant ",
@@ -22,7 +36,7 @@
                    "Linux Commands"
             ],
             "date_published": "2021-03-07T11:53:05+01:00",
-            "date_modified": "2021-03-07T11:53:28+01:00"
+            "date_modified": "2021-03-07T11:55:04+01:00"
         },
         {
             "id": "https://emu-007.github.io/emu-007.github.io/listing-all-installed-apt-packages.html",

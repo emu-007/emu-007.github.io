@@ -3,12 +3,35 @@
     <title>Dev Blog</title>
     <link href="https://emu-007.github.io/emu-007.github.io/feed.xml" rel="self" />
     <link href="https://emu-007.github.io/emu-007.github.io" />
-    <updated>2021-03-07T11:53:28+01:00</updated>
+    <updated>2021-03-07T19:17:18+01:00</updated>
     <author>
         <name>Sam</name>
     </author>
     <id>https://emu-007.github.io/emu-007.github.io</id>
 
+    <entry>
+        <title>Vagrant time out error </title>
+        <author>
+            <name>Sam</name>
+        </author>
+        <link href="https://emu-007.github.io/emu-007.github.io/vagrant-time-out-error.html"/>
+        <id>https://emu-007.github.io/emu-007.github.io/vagrant-time-out-error.html</id>
+
+        <updated>2021-03-07T19:17:18+01:00</updated>
+            <summary>
+                <![CDATA[
+                    If the connection times out after you run vagrant up and it takes too long and times out after the&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p data-start="1" data-line-offset="0">If the connection times out after you run <code>vagrant up</code>  and it takes too long and times out after the following.</p>
+<pre data-start="1" data-line-offset="0">default: SSH address: 127.0.0.1:2222<br>default: SSH username: vagrant</pre>
+<p data-start="1" data-line-offset="0">One of the reasons this could happen is because virtualization is disabled in the bios. To check if if virtualization is enabled on a Linux system, run <code>sudo kvm-ok</code>.  The output should inform you if it is disabled. </p>
+<p data-start="1" data-line-offset="0">To enable it go into the bios and under CPU or processor enable virtualization. If virtualization was causing it, now you should be able to run vagrant.  </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Installing the latest vagrant </title>
         <author>
@@ -18,7 +41,7 @@
         <id>https://emu-007.github.io/emu-007.github.io/installing-the-latest-vagrant.html</id>
             <category term="Linux Commands"/>
 
-        <updated>2021-03-07T11:53:28+01:00</updated>
+        <updated>2021-03-07T11:55:04+01:00</updated>
             <summary>
                 <![CDATA[
                     To install the latest version, change 2.2.14 in the commands. sudo apt update sudo apt install virtualbox curl -0 https://releases.hashicorp.com/vagrant/2.2.14/vagrant_2.2.14_x86_64.deb&hellip;

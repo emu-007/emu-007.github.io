@@ -22,7 +22,7 @@
 </url>
 <url>
 <loc>https://emu-007.github.io/emu-007.github.io/installing-the-latest-vagrant.html</loc>
-<lastmod>2021-03-07T11:53:28+01:00</lastmod>
+<lastmod>2021-03-07T11:55:04+01:00</lastmod>
 </url>
 <url>
 <loc>https://emu-007.github.io/emu-007.github.io/listing-all-installed-apt-packages.html</loc>
@@ -35,5 +35,9 @@
 <url>
 <loc>https://emu-007.github.io/emu-007.github.io/outputting-file-content-in-the-terminal.html</loc>
 <lastmod>2021-03-04T17:02:06+01:00</lastmod>
+</url>
+<url>
+<loc>https://emu-007.github.io/emu-007.github.io/vagrant-time-out-error.html</loc>
+<lastmod>2021-03-07T19:17:18+01:00</lastmod>
 </url>
 </urlset>
