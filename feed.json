@@ -10,6 +10,21 @@
     },
     "items": [
         {
+            "id": "https://emu-007.github.io/emu-007.github.io/installing-the-latest-vagrant.html",
+            "url": "https://emu-007.github.io/emu-007.github.io/installing-the-latest-vagrant.html",
+            "title": "Installing the latest vagrant ",
+            "summary": "To install the latest version, change 2.2.14 in the commands. sudo apt update sudo apt install virtualbox curl -0 https://releases.hashicorp.com/vagrant/2.2.14/vagrant_2.2.14_x86_64.deb&hellip;",
+            "content_html": "<p>To install the latest version, change 2.2.14 in the commands. </p>\n<p> </p>\n<p><code><span class=\"style-scope yt-formatted-string\" dir=\"auto\"> sudo apt update </span></code></p>\n<p><code><span class=\"style-scope yt-formatted-string\" dir=\"auto\"> sudo apt install virtualbox </span></code></p>\n<p><code>curl -0 https://releases.hashicorp.com/vagrant/<em>2.2.14</em>/vagrant_<em>2.2.14</em>_x86_64.deb</code></p>\n<p><code><span class=\"style-scope yt-formatted-string\" dir=\"auto\">sudo apt install ./vagrant_<em>2.2.14</em>_x86_64.deb </span></code></p>\n<p><code><span class=\"style-scope yt-formatted-string\" dir=\"auto\">vagrant --version</span></code></p>\n<p> </p>",
+            "author": {
+                "name": "Sam"
+            },
+            "tags": [
+                   "Linux Commands"
+            ],
+            "date_published": "2021-03-07T11:53:05+01:00",
+            "date_modified": "2021-03-07T11:53:28+01:00"
+        },
+        {
             "id": "https://emu-007.github.io/emu-007.github.io/listing-all-installed-apt-packages.html",
             "url": "https://emu-007.github.io/emu-007.github.io/listing-all-installed-apt-packages.html",
             "title": "Listing all installed apt packages ",

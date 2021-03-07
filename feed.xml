@@ -3,12 +3,40 @@
     <title>Dev Blog</title>
     <link href="https://emu-007.github.io/emu-007.github.io/feed.xml" rel="self" />
     <link href="https://emu-007.github.io/emu-007.github.io" />
-    <updated>2021-03-06T13:14:49+01:00</updated>
+    <updated>2021-03-07T11:53:28+01:00</updated>
     <author>
         <name>Sam</name>
     </author>
     <id>https://emu-007.github.io/emu-007.github.io</id>
 
+    <entry>
+        <title>Installing the latest vagrant </title>
+        <author>
+            <name>Sam</name>
+        </author>
+        <link href="https://emu-007.github.io/emu-007.github.io/installing-the-latest-vagrant.html"/>
+        <id>https://emu-007.github.io/emu-007.github.io/installing-the-latest-vagrant.html</id>
+            <category term="Linux Commands"/>
+
+        <updated>2021-03-07T11:53:28+01:00</updated>
+            <summary>
+                <![CDATA[
+                    To install the latest version, change 2.2.14 in the commands. sudo apt update sudo apt install virtualbox curl -0 https://releases.hashicorp.com/vagrant/2.2.14/vagrant_2.2.14_x86_64.deb&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>To install the latest version, change 2.2.14 in the commands. </p>
+<p> </p>
+<p><code><span class="style-scope yt-formatted-string" dir="auto"> sudo apt update </span></code></p>
+<p><code><span class="style-scope yt-formatted-string" dir="auto"> sudo apt install virtualbox </span></code></p>
+<p><code>curl -0 https://releases.hashicorp.com/vagrant/<em>2.2.14</em>/vagrant_<em>2.2.14</em>_x86_64.deb</code></p>
+<p><code><span class="style-scope yt-formatted-string" dir="auto">sudo apt install ./vagrant_<em>2.2.14</em>_x86_64.deb </span></code></p>
+<p><code><span class="style-scope yt-formatted-string" dir="auto">vagrant --version</span></code></p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Listing all installed apt packages </title>
         <author>
