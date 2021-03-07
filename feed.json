@@ -10,11 +10,26 @@
     },
     "items": [
         {
+            "id": "https://emu-007.github.io/emu-007.github.io/creating-a-text-file-through-the-command-line-in-linux.html",
+            "url": "https://emu-007.github.io/emu-007.github.io/creating-a-text-file-through-the-command-line-in-linux.html",
+            "title": "Creating a text file through the command line in Linux",
+            "summary": "There are few ways to create a text file. 1. Using touch touch text.txt creates an empty text file. 2.",
+            "content_html": "<p>There are few ways to create a text file. </p>\n<p>1. Using touch  <code>touch <em>text.txt</em></code>  creates an empty text file. </p>\n<p>2. Using the redirect (&gt;)  <code>&gt; text.txt</code> also creates an empty text file. </p>\n<p>3. By using cat  <code>cat &gt; text.txt</code>, you can enter the text you want, pressing enter will take you to the next line. To exit use <em>ctrl + d. </em></p>\n<p> </p>",
+            "author": {
+                "name": "Sam"
+            },
+            "tags": [
+                   "Linux Commands"
+            ],
+            "date_published": "2021-03-07T23:02:25+01:00",
+            "date_modified": "2021-03-07T23:15:40+01:00"
+        },
+        {
             "id": "https://emu-007.github.io/emu-007.github.io/vagrant-time-out-error.html",
             "url": "https://emu-007.github.io/emu-007.github.io/vagrant-time-out-error.html",
             "title": "Vagrant freezes on &#x27;SSH auth method: private key&#x27;",
-            "summary": "If the connection times out after you run vagrant up and it takes too long and times out after the&hellip;",
-            "content_html": "<p data-start=\"1\" data-line-offset=\"0\">If the connection times out after you run <code>vagrant up</code>  and it takes too long and times out after the following.</p>\n<pre data-start=\"1\" data-line-offset=\"0\">default: SSH address: 127.0.0.1:2222<br>default: SSH username: vagrant</pre>\n<pre><code>Timed out while waiting for the machine to boot. This means that\nVagrant was unable to communicate with the guest machine within\nthe configured (\"config.vm.boot_timeout\" value) time period.\n\nIf you look above, you should be able to see the error(s) that\nVagrant had when attempting to connect to the machine. These errors\nare usually good hints as to what may be wrong.\n\nIf you're using a custom box, make sure that networking is properly\nworking and you're able to connect to the machine. It is a common\nproblem that networking isn't setup properly in these boxes.\nVerify that authentication configurations are also setup properly,\nas well.\n\nIf the box appears to be booting properly, you may want to increase\nthe timeout (\"config.vm.boot_timeout\") value.</code></pre>\n<p data-start=\"1\" data-line-offset=\"0\">One of the reasons this could happen is because virtualization is disabled in the bios. To check if if virtualization is enabled on a Linux system, run <code>sudo kvm-ok</code>.  The output should inform you if it is disabled. </p>\n<p data-start=\"1\" data-line-offset=\"0\">To enable it go into the bios and under CPU or processor enable virtualization. If virtualization was causing it, now you should be able to run vagrant.  </p>",
+            "summary": "If the connection times out after you run vagrant up and it freezes and throws up a timeout error as&hellip;",
+            "content_html": "<p data-start=\"1\" data-line-offset=\"0\">If the connection times out after you run <code>vagrant up</code>  and it freezes and throws up  a timeout error as shown below.</p>\n<pre data-start=\"1\" data-line-offset=\"0\">default: SSH address: 127.0.0.1:2222<br>default: SSH username: vagrant</pre>\n<pre><code>Timed out while waiting for the machine to boot. This means that\nVagrant was unable to communicate with the guest machine within\nthe configured (\"config.vm.boot_timeout\" value) time period.\n\nIf you look above, you should be able to see the error(s) that\nVagrant had when attempting to connect to the machine. These errors\nare usually good hints as to what may be wrong.\n\nIf you're using a custom box, make sure that networking is properly\nworking and you're able to connect to the machine. It is a common\nproblem that networking isn't setup properly in these boxes.\nVerify that authentication configurations are also setup properly,\nas well.\n\nIf the box appears to be booting properly, you may want to increase\nthe timeout (\"config.vm.boot_timeout\") value.</code></pre>\n<p data-start=\"1\" data-line-offset=\"0\">One of the reasons this could happen is because virtualization is disabled in the bios. To check if virtualization is enabled on a Linux system, run <code>sudo kvm-ok</code>.  The output should inform you if it is disabled or not. </p>\n<p data-start=\"1\" data-line-offset=\"0\">To enable it go into the bios and under CPU or processor enable virtualization. If virtualization was causing it, now you should be able to run vagrant.  </p>",
             "author": {
                 "name": "Sam"
             },
@@ -22,14 +37,14 @@
                    "Linux Commands"
             ],
             "date_published": "2021-03-07T19:10:38+01:00",
-            "date_modified": "2021-03-07T19:22:07+01:00"
+            "date_modified": "2021-03-07T23:11:01+01:00"
         },
         {
             "id": "https://emu-007.github.io/emu-007.github.io/installing-the-latest-vagrant.html",
             "url": "https://emu-007.github.io/emu-007.github.io/installing-the-latest-vagrant.html",
             "title": "Installing the latest vagrant ",
-            "summary": "To install the latest version, change 2.2.14 in the commands. sudo apt update sudo apt install virtualbox curl -0 https://releases.hashicorp.com/vagrant/2.2.14/vagrant_2.2.14_x86_64.deb&hellip;",
-            "content_html": "<p>To install the latest version, change 2.2.14 in the commands. </p>\n<p> </p>\n<p><code><span class=\"style-scope yt-formatted-string\" dir=\"auto\"> sudo apt update </span></code></p>\n<p><code><span class=\"style-scope yt-formatted-string\" dir=\"auto\"> sudo apt install virtualbox </span></code></p>\n<p><code>curl -0 https://releases.hashicorp.com/vagrant/<em>2.2.14</em>/vagrant_<em>2.2.14</em>_x86_64.deb</code></p>\n<p><code><span class=\"style-scope yt-formatted-string\" dir=\"auto\">sudo apt install ./vagrant_<em>2.2.14</em>_x86_64.deb </span></code></p>\n<p><code><span class=\"style-scope yt-formatted-string\" dir=\"auto\">vagrant --version</span></code></p>\n<p> </p>",
+            "summary": "Note: The vagrant version on the upstream repositories is quite old and doesn't get updated. Either install it as following&hellip;",
+            "content_html": "<p><em>Note: The vagrant version on the upstream repositories is quite old and doesn't get updated. Either install it as following or download the deb file directly from the website. </em></p>\n<p>To install the latest version, change<em> 2.2.14</em> in the commands to the latest version. </p>\n<p>Update your system <code><span class=\"style-scope yt-formatted-string\" dir=\"auto\"> sudo apt update </span></code></p>\n<p>Install virtual box <code><span class=\"style-scope yt-formatted-string\" dir=\"auto\">sudo apt install virtualbox</span></code>. Vagrant uses/manages virtual box to do what it does.  </p>\n<p>Download the latest release <code>curl -0 https://releases.hashicorp.com/vagrant/<em>2.2.14</em>/vagrant_<em>2.2.14</em>_x86_64.deb</code></p>\n<p>Now to install it run <code><span class=\"style-scope yt-formatted-string\" dir=\"auto\">sudo apt install ./vagrant_<em>2.2.14</em>_x86_64.deb </span></code></p>\n<p>Check to see the version <code><span class=\"style-scope yt-formatted-string\" dir=\"auto\">vagrant --version</span></code></p>\n<p> </p>",
             "author": {
                 "name": "Sam"
             },
@@ -37,7 +52,7 @@
                    "Linux Commands"
             ],
             "date_published": "2021-03-07T11:53:05+01:00",
-            "date_modified": "2021-03-07T11:55:04+01:00"
+            "date_modified": "2021-03-07T23:08:23+01:00"
         },
         {
             "id": "https://emu-007.github.io/emu-007.github.io/listing-all-installed-apt-packages.html",
