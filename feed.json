@@ -1,6 +1,6 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "Dev Blog",
+    "title": "Sam&#x27;s Notes",
     "description": "",
     "home_page_url": "https://emu-007.github.io/emu-007.github.io",
     "feed_url": "https://emu-007.github.io/emu-007.github.io/feed.json",
@@ -9,6 +9,22 @@
         "name": "Sam"
     },
     "items": [
+        {
+            "id": "https://emu-007.github.io/emu-007.github.io/storing-or-redirecting-outputs-to-a-text-file.html",
+            "url": "https://emu-007.github.io/emu-007.github.io/storing-or-redirecting-outputs-to-a-text-file.html",
+            "title": "Storing or redirecting outputs to a text file. ",
+            "summary": "If you run a command such as ls that lists the files/directories or printenv that lists all the environment variables&hellip;",
+            "content_html": "<p>If you run a command such as <code>ls</code>  that lists the files/directories or <code>printenv</code> that lists all the environment variables and want to save the output into a text file. You can use the redirect (&gt;) to do that. </p>\n<p><code>command &gt; file </code></p>\n<p><code>ls &gt; text.txt</code>  will store the output to text.txt. <code>cat text.txt</code> to see the output. </p>\n<p><code>printenv &gt; text1.txt</code> will store the output to text1.txt. </p>\n<p>Now if you want to append something to text.txt for example. </p>\n<p><code>command &gt;&gt; file</code></p>\n<p><code>echo \"Hello World\" &gt;&gt; text.txt</code>, would append Hello world to the contents of text.txt. </p>",
+            "author": {
+                "name": "Sam"
+            },
+            "tags": [
+                   "Linux Commands",
+                   "Linux"
+            ],
+            "date_published": "2021-03-07T23:36:17+01:00",
+            "date_modified": "2021-03-08T10:54:27+01:00"
+        },
         {
             "id": "https://emu-007.github.io/emu-007.github.io/creating-a-text-file-through-the-command-line-in-linux.html",
             "url": "https://emu-007.github.io/emu-007.github.io/creating-a-text-file-through-the-command-line-in-linux.html",
@@ -19,10 +35,11 @@
                 "name": "Sam"
             },
             "tags": [
-                   "Linux Commands"
+                   "Linux Commands",
+                   "Linux"
             ],
             "date_published": "2021-03-07T23:02:25+01:00",
-            "date_modified": "2021-03-07T23:15:40+01:00"
+            "date_modified": "2021-03-08T10:54:35+01:00"
         },
         {
             "id": "https://emu-007.github.io/emu-007.github.io/vagrant-time-out-error.html",
@@ -34,10 +51,11 @@
                 "name": "Sam"
             },
             "tags": [
-                   "Linux Commands"
+                   "Linux Commands",
+                   "Linux"
             ],
             "date_published": "2021-03-07T19:10:38+01:00",
-            "date_modified": "2021-03-07T23:11:01+01:00"
+            "date_modified": "2021-03-08T10:54:44+01:00"
         },
         {
             "id": "https://emu-007.github.io/emu-007.github.io/installing-the-latest-vagrant.html",
@@ -49,10 +67,11 @@
                 "name": "Sam"
             },
             "tags": [
-                   "Linux Commands"
+                   "Linux Commands",
+                   "Linux"
             ],
             "date_published": "2021-03-07T11:53:05+01:00",
-            "date_modified": "2021-03-07T23:08:23+01:00"
+            "date_modified": "2021-03-08T10:54:52+01:00"
         },
         {
             "id": "https://emu-007.github.io/emu-007.github.io/listing-all-installed-apt-packages.html",
@@ -64,10 +83,11 @@
                 "name": "Sam"
             },
             "tags": [
-                   "Linux Commands"
+                   "Linux Commands",
+                   "Linux"
             ],
             "date_published": "2021-03-06T13:07:02+01:00",
-            "date_modified": "2021-03-06T13:11:59+01:00"
+            "date_modified": "2021-03-08T10:55:05+01:00"
         },
         {
             "id": "https://emu-007.github.io/emu-007.github.io/outputting-file-content-in-the-terminal.html",
@@ -79,10 +99,11 @@
                 "name": "Sam"
             },
             "tags": [
-                   "Linux Commands"
+                   "Linux Commands",
+                   "Linux"
             ],
             "date_published": "2021-03-04T17:02:06+01:00",
-            "date_modified": "2021-03-04T17:02:06+01:00"
+            "date_modified": "2021-03-08T10:55:12+01:00"
         },
         {
             "id": "https://emu-007.github.io/emu-007.github.io/changing-directories-in-terminal.html",
@@ -94,10 +115,11 @@
                 "name": "Sam"
             },
             "tags": [
-                   "Linux Commands"
+                   "Linux Commands",
+                   "Linux"
             ],
             "date_published": "2021-03-03T23:22:29+01:00",
-            "date_modified": "2021-03-03T23:23:36+01:00"
+            "date_modified": "2021-03-08T10:55:34+01:00"
         },
         {
             "id": "https://emu-007.github.io/emu-007.github.io/how-to-build-the-linux-kernel.html",
@@ -109,10 +131,11 @@
                 "name": "Sam"
             },
             "tags": [
-                   "Linux Kernel"
+                   "Linux Kernel",
+                   "Linux"
             ],
             "date_published": "2021-03-03T15:53:09+01:00",
-            "date_modified": "2021-03-04T00:02:51+01:00"
+            "date_modified": "2021-03-08T10:55:23+01:00"
         },
         {
             "id": "https://emu-007.github.io/emu-007.github.io/error-scriptsextract-certc2110-fatal-error-opensslbioh-no-such-file-or-directory-include.html",
@@ -124,10 +147,11 @@
                 "name": "Sam"
             },
             "tags": [
-                   "Linux Kernel"
+                   "Linux Kernel",
+                   "Linux"
             ],
             "date_published": "2021-03-03T15:34:02+01:00",
-            "date_modified": "2021-03-04T00:04:21+01:00"
+            "date_modified": "2021-03-08T10:55:43+01:00"
         },
         {
             "id": "https://emu-007.github.io/emu-007.github.io/about-me.html",
@@ -142,21 +166,6 @@
             ],
             "date_published": "2021-03-03T15:20:13+01:00",
             "date_modified": "2021-03-06T13:14:49+01:00"
-        },
-        {
-            "id": "https://emu-007.github.io/emu-007.github.io/make-menuconfig.html",
-            "url": "https://emu-007.github.io/emu-007.github.io/make-menuconfig.html",
-            "title": "make menuconfig",
-            "summary": "While trying to run the make menuconfig to configure the build of Linux Kernel I encountered some issues. Mainly that I&hellip;",
-            "content_html": "<p>While trying to run the <code>make menuconfig</code><em> </em>to configure the build of Linux Kernel I encountered some issues. Mainly that I didn't have many of the packages installed. </p>\n<p>This is just a list of commands, i.e package names to install. It might differ based on what you already have installed on your computer. Its in the order the errors were thrown out saying something wasn't available in order to use <code>make menuconfig</code></p>\n<p><code>sudo apt-get install pkg-config</code></p>\n<p>To install ncurses a sort of terminal gui. </p>\n<p><code>sudo apt-get install libncurses5-dev libncursesw5-dev</code></p>\n<p>If flex not found</p>\n<p><code>sudo apt-get install flex</code></p>\n<p>If Bison not found</p>\n<p><code>sudo apt-get install bison</code></p>\n<p>I could run <code>make menuconfig </code>after installing those</p>\n<p><code></code></p>\n<p> </p>",
-            "author": {
-                "name": "Sam"
-            },
-            "tags": [
-                   "Linux Kernel"
-            ],
-            "date_published": "2021-03-03T14:52:36+01:00",
-            "date_modified": "2021-03-03T23:23:57+01:00"
         }
     ]
 }

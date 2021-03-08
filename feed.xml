@@ -1,14 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>Dev Blog</title>
+    <title>Sam&#x27;s Notes</title>
     <link href="https://emu-007.github.io/emu-007.github.io/feed.xml" rel="self" />
     <link href="https://emu-007.github.io/emu-007.github.io" />
-    <updated>2021-03-07T23:15:40+01:00</updated>
+    <updated>2021-03-08T10:55:43+01:00</updated>
     <author>
         <name>Sam</name>
     </author>
     <id>https://emu-007.github.io/emu-007.github.io</id>
 
+    <entry>
+        <title>Storing or redirecting outputs to a text file. </title>
+        <author>
+            <name>Sam</name>
+        </author>
+        <link href="https://emu-007.github.io/emu-007.github.io/storing-or-redirecting-outputs-to-a-text-file.html"/>
+        <id>https://emu-007.github.io/emu-007.github.io/storing-or-redirecting-outputs-to-a-text-file.html</id>
+            <category term="Linux Commands"/>
+            <category term="Linux"/>
+
+        <updated>2021-03-08T10:54:27+01:00</updated>
+            <summary>
+                <![CDATA[
+                    If you run a command such as ls that lists the files/directories or printenv that lists all the environment variables&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>If you run a command such as <code>ls</code>  that lists the files/directories or <code>printenv</code> that lists all the environment variables and want to save the output into a text file. You can use the redirect (&gt;) to do that. </p>
+<p><code>command &gt; file </code></p>
+<p><code>ls &gt; text.txt</code>  will store the output to text.txt. <code>cat text.txt</code> to see the output. </p>
+<p><code>printenv &gt; text1.txt</code> will store the output to text1.txt. </p>
+<p>Now if you want to append something to text.txt for example. </p>
+<p><code>command &gt;&gt; file</code></p>
+<p><code>echo "Hello World" &gt;&gt; text.txt</code>, would append Hello world to the contents of text.txt. </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Creating a text file through the command line in Linux</title>
         <author>
@@ -17,8 +45,9 @@
         <link href="https://emu-007.github.io/emu-007.github.io/creating-a-text-file-through-the-command-line-in-linux.html"/>
         <id>https://emu-007.github.io/emu-007.github.io/creating-a-text-file-through-the-command-line-in-linux.html</id>
             <category term="Linux Commands"/>
+            <category term="Linux"/>
 
-        <updated>2021-03-07T23:15:40+01:00</updated>
+        <updated>2021-03-08T10:54:35+01:00</updated>
             <summary>
                 <![CDATA[
                     There are few ways to create a text file. 1. Using touch touch text.txt creates an empty text file. 2.
@@ -42,8 +71,9 @@
         <link href="https://emu-007.github.io/emu-007.github.io/vagrant-time-out-error.html"/>
         <id>https://emu-007.github.io/emu-007.github.io/vagrant-time-out-error.html</id>
             <category term="Linux Commands"/>
+            <category term="Linux"/>
 
-        <updated>2021-03-07T23:11:01+01:00</updated>
+        <updated>2021-03-08T10:54:44+01:00</updated>
             <summary>
                 <![CDATA[
                     If the connection times out after you run vagrant up and it freezes and throws up a timeout error as&hellip;
@@ -82,8 +112,9 @@ the timeout ("config.vm.boot_timeout") value.</code></pre>
         <link href="https://emu-007.github.io/emu-007.github.io/installing-the-latest-vagrant.html"/>
         <id>https://emu-007.github.io/emu-007.github.io/installing-the-latest-vagrant.html</id>
             <category term="Linux Commands"/>
+            <category term="Linux"/>
 
-        <updated>2021-03-07T23:08:23+01:00</updated>
+        <updated>2021-03-08T10:54:52+01:00</updated>
             <summary>
                 <![CDATA[
                     Note: The vagrant version on the upstream repositories is quite old and doesn't get updated. Either install it as following&hellip;
@@ -110,8 +141,9 @@ the timeout ("config.vm.boot_timeout") value.</code></pre>
         <link href="https://emu-007.github.io/emu-007.github.io/listing-all-installed-apt-packages.html"/>
         <id>https://emu-007.github.io/emu-007.github.io/listing-all-installed-apt-packages.html</id>
             <category term="Linux Commands"/>
+            <category term="Linux"/>
 
-        <updated>2021-03-06T13:11:59+01:00</updated>
+        <updated>2021-03-08T10:55:05+01:00</updated>
             <summary>
                 <![CDATA[
                      1. Use sudo apt list --installed to see all that is installed on your Linux system. It will give&hellip;
@@ -134,8 +166,9 @@ the timeout ("config.vm.boot_timeout") value.</code></pre>
         <link href="https://emu-007.github.io/emu-007.github.io/outputting-file-content-in-the-terminal.html"/>
         <id>https://emu-007.github.io/emu-007.github.io/outputting-file-content-in-the-terminal.html</id>
             <category term="Linux Commands"/>
+            <category term="Linux"/>
 
-        <updated>2021-03-04T17:02:06+01:00</updated>
+        <updated>2021-03-08T10:55:12+01:00</updated>
             <summary>
                 <![CDATA[
                     There are various ways to see what is inside a file inside the terminal. cat filename would output the contents&hellip;
@@ -161,8 +194,9 @@ the timeout ("config.vm.boot_timeout") value.</code></pre>
         <link href="https://emu-007.github.io/emu-007.github.io/changing-directories-in-terminal.html"/>
         <id>https://emu-007.github.io/emu-007.github.io/changing-directories-in-terminal.html</id>
             <category term="Linux Commands"/>
+            <category term="Linux"/>
 
-        <updated>2021-03-03T23:23:36+01:00</updated>
+        <updated>2021-03-08T10:55:34+01:00</updated>
             <summary>
                 <![CDATA[
                     cd foldername /* changes to the folder specified cd .. /* goes up one directory cd \. /* takes you&hellip;
@@ -182,8 +216,9 @@ the timeout ("config.vm.boot_timeout") value.</code></pre>
         <link href="https://emu-007.github.io/emu-007.github.io/how-to-build-the-linux-kernel.html"/>
         <id>https://emu-007.github.io/emu-007.github.io/how-to-build-the-linux-kernel.html</id>
             <category term="Linux Kernel"/>
+            <category term="Linux"/>
 
-        <updated>2021-03-04T00:02:51+01:00</updated>
+        <updated>2021-03-08T10:55:23+01:00</updated>
             <summary>
                 <![CDATA[
                     This build process is for Ubuntu/Debian Download the latest kernel from Linux kernel archives as tar. Once you have those&hellip;
@@ -210,8 +245,9 @@ the timeout ("config.vm.boot_timeout") value.</code></pre>
         <link href="https://emu-007.github.io/emu-007.github.io/error-scriptsextract-certc2110-fatal-error-opensslbioh-no-such-file-or-directory-include.html"/>
         <id>https://emu-007.github.io/emu-007.github.io/error-scriptsextract-certc2110-fatal-error-opensslbioh-no-such-file-or-directory-include.html</id>
             <category term="Linux Kernel"/>
+            <category term="Linux"/>
 
-        <updated>2021-03-04T00:04:21+01:00</updated>
+        <updated>2021-03-08T10:55:43+01:00</updated>
             <summary>
                 <![CDATA[
                      Error: scripts/extract-cert.c:21:10: fatal error: openssl/bio.h: No such file or directory #include sudo apt-get install aptitude sudo aptitude install libssl-dev&hellip;
@@ -250,38 +286,6 @@ the timeout ("config.vm.boot_timeout") value.</code></pre>
   <p>
     Hey I am Sam. I use this blog to write about things that are related to programming and other technology related stuff.&nbsp; Mostly they are just notes that are publicly available.&nbsp;
   </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>make menuconfig</title>
-        <author>
-            <name>Sam</name>
-        </author>
-        <link href="https://emu-007.github.io/emu-007.github.io/make-menuconfig.html"/>
-        <id>https://emu-007.github.io/emu-007.github.io/make-menuconfig.html</id>
-            <category term="Linux Kernel"/>
-
-        <updated>2021-03-03T23:23:57+01:00</updated>
-            <summary>
-                <![CDATA[
-                    While trying to run the make menuconfig to configure the build of Linux Kernel I encountered some issues. Mainly that I&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>While trying to run the <code>make menuconfig</code><em> </em>to configure the build of Linux Kernel I encountered some issues. Mainly that I didn't have many of the packages installed. </p>
-<p>This is just a list of commands, i.e package names to install. It might differ based on what you already have installed on your computer. Its in the order the errors were thrown out saying something wasn't available in order to use <code>make menuconfig</code></p>
-<p><code>sudo apt-get install pkg-config</code></p>
-<p>To install ncurses a sort of terminal gui. </p>
-<p><code>sudo apt-get install libncurses5-dev libncursesw5-dev</code></p>
-<p>If flex not found</p>
-<p><code>sudo apt-get install flex</code></p>
-<p>If Bison not found</p>
-<p><code>sudo apt-get install bison</code></p>
-<p>I could run <code>make menuconfig </code>after installing those</p>
-<p><code></code></p>
-<p> </p>
             ]]>
         </content>
     </entry>
